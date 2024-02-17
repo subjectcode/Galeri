@@ -16,6 +16,8 @@
    <?php
     include "navbar.php";
    ?>
+
+   <center>
     <h1>Halaman Foto</h1>
     <p>Selamat datang <b><?=$_SESSION['NamaLengkap']?></b></p>
     
@@ -58,7 +60,7 @@
             </tr>
         </table>
     </form>
-
+<br>
     <table width="100%" border="1" cellpadding=5 cellspacing=0>
         <tr>
             <th>ID</th>
@@ -101,5 +103,6 @@
             }
         ?>
     </table>
+    </center>
 </body>
 </html>

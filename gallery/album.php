@@ -27,11 +27,11 @@ if (!isset($_SESSION['UserID'])) {
         <table>
     <tr>
         <td>Nama Album : </td>
-        <td><input type="text" name="NamaAlbum"></td>
+        <td><input type="text" name="NamaAlbum" required></td>
     </tr>
     <tr>
         <td>Deskripsi Album : </td>
-        <td><input type="text" name="Deskripsi"></td>
+        <td><input type="text" name="Deskripsi" required></td>
     </tr>
 
     <tr>

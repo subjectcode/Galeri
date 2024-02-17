@@ -22,10 +22,10 @@
     } else {
         include "navbar.php";
     ?>
-
+        <center>
         <h1>Selamat Datang</h1>
         <h2><b><?= $_SESSION['NamaLengkap'] ?></b></h2>
-
+        </center>
     <?php
     }
 

@@ -13,6 +13,7 @@
     <title>Halaman Edit Foto</title>
 </head>
 <body>
+    <center>
     <h1>Selamat Datang</h1><b><?=$_SESSION['NamaLengkap']?></b>
     <pre>halaman Edit Foto</pre>
     
@@ -71,6 +72,6 @@
         ?>
     </form>
 
-    
+    </center>
 </body>
 </html>

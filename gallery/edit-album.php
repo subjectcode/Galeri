@@ -13,12 +13,13 @@
     <title>Halaman Edit Album</title>
 </head>
 <body>
-    <h1>Halaman Edit Album</h1>
-    <p>Selamat datang <b><?=$_SESSION['NamaLengkap']?></b></p>
-    
   <?php
     include "navbar.php";
   ?>
+    <center>
+    <h1>Halaman Edit Album</h1>
+    <p>Selamat datang <b><?=$_SESSION['NamaLengkap']?></b></p>
+    
 
     <form action="update-album.php" method="post">
         <?php
@@ -46,7 +47,7 @@
             }
         ?>
     </form>
-
+    </center>   
     
 </body>
 </html>
