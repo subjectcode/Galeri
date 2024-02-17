@@ -93,8 +93,8 @@
                         ?>
                     </td>
                     <td>
-                        <a href="hapus_foto.php?FotoID=<?=$data['FotoID']?>">Hapus</a>
-                        <a href="edit_foto.php?FotoID=<?=$data['FotoID']?>">Edit</a>
+                        <a href="hapus-foto.php?FotoID=<?=$data['FotoID']?>">Hapus</a>
+                        <a href="edit-foto.php?FotoID=<?=$data['FotoID']?>">Edit</a>
                     </td>
                 </tr>
         <?php
